@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+<img width="100%" src="https://user-images.githubusercontent.com/2182108/91934586-6f32d880-ecf4-11ea-84bb-869dd1147d30.gif" />
+
 <!--
 **inlife/inlife** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
