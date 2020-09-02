@@ -28,7 +28,7 @@ export default async (req, res) => {
                 x="0" y="0"
                 height="100%"
                 clip-path="url(#clip)"
-                xlink:href="/static/image.gif"
+                xlink:href="https://inlife.vercel.app/static/image.gif"
                 style="opacity: 0;"
             />
 
