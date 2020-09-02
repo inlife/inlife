@@ -1,0 +1,26 @@
+{
+  "name": "inlife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inlife/inlife.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inlife/inlife/issues"
+  },
+  "homepage": "https://github.com/inlife/inlife#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
