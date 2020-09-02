@@ -1,4 +1,5 @@
 import {format} from 'date-fns'
+import image from '../../utils/image.base64'
 
 export default async (req, res) => {
     res.statusCode = 200
@@ -28,7 +29,7 @@ export default async (req, res) => {
                 x="0" y="0"
                 height="100%"
                 clip-path="url(#clip)"
-                xlink:href="https://inlife.vercel.app/static/image.gif"
+                xlink:href="data:image/gif;base64,${image}"
                 style="opacity: 0;"
             />
 
