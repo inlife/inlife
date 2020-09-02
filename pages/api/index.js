@@ -4,7 +4,7 @@ import image from '../../utils/image.base64'
 export default async (req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'image/svg+xml')
-    res.setHeader('Cache-Control', 'no-cache')
+    res.setHeader('Cache-Control', 'max-age=3600')
     res.end(/* syntax: html */`
         <svg version="1.1"
             baseProfile="full"
