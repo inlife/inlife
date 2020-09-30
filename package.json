@@ -21,6 +21,7 @@
     "date-fns": "^2.16.1",
     "next": "^9.5.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "universal-analytics": "^0.4.23"
   }
 }

@@ -1,7 +1,10 @@
 import {format} from 'date-fns'
 import image from '../../utils/image.base64'
+import ua from 'universal-analytics'
 
 export default async (req, res) => {
+    ua('UA-76312016-3').pageview("/api").send()
+
     res.statusCode = 200
     res.setHeader('Content-Type', 'image/svg+xml')
     res.setHeader('Cache-Control', 'max-age=3600')
