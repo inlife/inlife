@@ -33,7 +33,7 @@ export default async (req, res) => {
                 height="100%"
                 clip-path="url(#clip)"
                 xlink:href="data:image/gif;base64,${image}"
-                style="opacity: 0.7 !important;"
+                style="opacity: 1 !important"
             />
 
             <!-- <rect x="0" y="135" width="380" height="100" fill="black"/> -->
