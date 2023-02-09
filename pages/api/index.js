@@ -8,7 +8,7 @@ export default async (req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'image/svg+xml')
     res.setHeader('Cache-Control', 'max-age=3600')
-    res.end(/* syntax: html */`
+    res.end(/* html */`
         <svg version="1.1"
             baseProfile="full"
             width="100%" height="231"
@@ -26,6 +26,7 @@ export default async (req, res) => {
             </defs>
 
             <use xlink:href="#rect" stroke-width="2" fill="#fff" stroke="#e1e4e8"/>
+            <rect width="100%" height="100%" style="fill:rgb(100,0,255)" clip-path="url(#clip)"/>
 
             <image
                 id="image"
